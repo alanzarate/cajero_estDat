@@ -71,7 +71,7 @@ public class Cuenta {
 		Cuenta n1 = cuentasCom.get(opcionSe-1);
 		verSaldo(opcionSe);
 		if(n1.getSaldo()==0) {
-			System.err.print("USTED NO PUEDE REALIZAR RETIROS");
+			System.err.print("USTED NO PUEDE REALIZAR RETIROS\n");
 			flag2=true;
 		}else {
 			System.out.println("Cuanto desea Retirar?");
