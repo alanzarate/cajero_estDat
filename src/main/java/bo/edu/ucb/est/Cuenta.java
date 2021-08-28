@@ -84,10 +84,10 @@ public class Cuenta {
 					System.out.println(ANSI_GREEN+"Retiro exitoso\n"+ANSI_RESET);
 					System.out.println("Saldo Actual: \t"+n1.getSaldo()+"\n---------------------------------------------");
 				}else {
-					System.err.print("Monto NO permitido !!");
+					System.err.print("\nMonto NO permitido !!\n");
 				}
 			}catch(Exception e) {
-				System.out.println(ANSI_YELLOW+"Por favor introduzca un valor permitido"+ANSI_RESET);
+				System.out.println(ANSI_YELLOW+"\nPor favor introduzca un valor permitido\n"+ANSI_RESET);
 			}
 		}
 		
@@ -109,10 +109,10 @@ public class Cuenta {
 				System.out.println(ANSI_GREEN+"Deposito exitoso :)"+ANSI_RESET);
 				System.out.println("\nSaldo Actual: \t"+n1.getSaldo()+"\n---------------------------------------------");
 			}else {
-				System.err.print("Monto NO permitido !!");
+				System.err.print("Monto NO permitido !!\n");
 			}
 		}catch(Exception e) {
-			System.out.println(ANSI_YELLOW+"Por favor introduzca un valor permitido"+ANSI_RESET);
+			System.out.println(ANSI_YELLOW+"\nPor favor introduzca un valor permitido\n"+ANSI_RESET);
 		}
 		
 		return flag2;
